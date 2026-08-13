@@ -27,9 +27,9 @@ python3 wsn_dashboard.py
 
 **Laptop client**:
 ```bash
-python3 wsn_laptop.py --host jetson.local --user faye live
-python3 wsn_laptop.py --host jetson.local --user faye export --out today.csv
-python3 wsn_laptop.py --host jetson.local --user faye set-interval 60
+python3 wsn_laptop.py --host jetson.local --user live
+python3 wsn_laptop.py --host jetson.local --user export --out today.csv
+python3 wsn_laptop.py --host jetson.local --user set-interval 60
 ```
 
 ## Dependencies
